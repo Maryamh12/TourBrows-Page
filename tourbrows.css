@@ -385,9 +385,9 @@ header  nav a {
         width: 80%;
         padding: 10px 3px;
        
-        grid-column: 5/13;
+        grid-column: 4/12;
  
-        margin: 20px 3em 20px 3em;
+        margin: 20px 2em 20px 2em;
         box-sizing: border-box;
       
     }
@@ -401,10 +401,10 @@ header  nav a {
  
     
     header {
-        width: 100%;
+        width: 130%;
     }
     footer {
-        width: 120%;
+        width: 130%;
         box-sizing: border-box;
     }
     footer  nav {
