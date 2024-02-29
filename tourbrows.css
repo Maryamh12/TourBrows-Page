@@ -375,3 +375,86 @@ header  nav a {
  
   
 }
+
+
+@media   (max-width: 450px){
+
+  
+    .cardd{
+       
+        width: 80%;
+        padding: 10px 3px;
+       
+        grid-column: 5/13;
+ 
+        margin: 20px 3em 20px 3em;
+        box-sizing: border-box;
+      
+    }
+
+    .cardd img{
+        
+        width: 85%;
+       
+    }
+
+ 
+    
+    header {
+        width: 100%;
+    }
+    footer {
+        width: 120%;
+        box-sizing: border-box;
+    }
+    footer  nav {
+    
+        grid-column:8/11;
+        
+        min-width: 300px;
+        box-sizing: border-box;
+       
+    }
+
+    #itemActive .welcom{
+        height: 550px;
+        padding-bottom: 2em;    
+      
+    
+    }
+  
+}
+
+
+
+@media   (max-width: 300px){
+
+  
+    .cardd{
+        
+        width: 70%;
+        margin: 20px 1em 20px 1em;
+        grid-column:2/13;
+      
+    }
+
+    .cardd img{
+        
+        width: 85%;
+       
+    }
+
+   
+    
+    header {
+        width: 170%;
+    }
+    footer {
+        width: 170%;
+        
+    }
+    #myCarousel{
+        grid-column: 2/13;
+        
+    }
+}
